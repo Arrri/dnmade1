@@ -2,4 +2,4 @@
 J'ai commit !
 ## 
 
-[vas y clique](https://guthib.com)
+[vas y clique](./html_vr2)
