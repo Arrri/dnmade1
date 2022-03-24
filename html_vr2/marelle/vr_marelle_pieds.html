@@ -1,0 +1,126 @@
+<!-- source : model3D feet : https://free3d.com/3d-model/foot-v1--788401.html -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+</head>
+
+<body>
+    <a-scene>
+
+        <a-assets>
+            <a-asset-item id="leftfoot" src="../assets/modeles/piedgauche.glb"></a-asset-item>
+            <a-asset-item id="rightfoot" src="../assets/modeles/pieddroite.glb"></a-asset-item>
+        </a-assets>
+
+        <!-- INSEREZ VOTRE ENVIRONNEMENT, CI-DESSOUS ... -->
+        
+        <a-sky src="../assets/images/sky5.png" rotation="0 -90 0" ></a-sky>
+      
+      <!--sol arrière-->
+      <a-box position="0 -20 1.20" depth="1.70" height="40" width="2.75" color="#1D1E2B"></a-box>
+      <a-box position="0.65 -18.25 1.1" depth="1.25" height="40" width="1.01" color="#1D1E2B"></a-box>
+      <a-box position="-0.70 -17.82 1" depth="0.91" height="40" width="0.81" color="#1D1E2B"></a-box>
+      <a-box position="0.02 -16.78 1.1" depth="0.89" height="40" width="0.71" color="#1D1E2B"></a-box>
+      <a-box position="0 -20 0" depth="0.70" height="40" width="0.40" color="#1D1E2B"></a-box>
+      <a-box position="0.30 -20 0.23" depth="0.60" height="40" width="0.40" color="#1D1E2B"></a-box>
+      <a-box position="1.30 -18.56 0.23" depth="0.80" height="40" width="0.70" color="#1D1E2B"></a-box>
+      <a-box position="-0.980 -18.76 0.23" depth="0.76" height="40" width="0.65" color="#1D1E2B"></a-box>
+      <a-box position="-0.40 -20 0.43" depth="0.60" height="40" width="0.750" color="#1D1E2B"></a-box>
+     
+      <!--sol marelle--> 
+      <a-box position="0.556 -20 -0.7" depth="0.40" height="40" width="0.40" color="#323544"></a-box>
+
+      <a-box position="-1 -20 -1.2" depth="0.40" height="40" width="0.40" color="#323544"></a-box>
+      
+      <a-box position="0.8625 -20 -1.35" depth="0.40" height="40" width="0.40" color="#323544"></a-box>
+      <a-box position="1 -20 -1.47" depth="0.40" height="40" width="0.40" color="#323544"></a-box>
+      <a-box position="1.08 -20 -1.87" depth="0.44" height="40" width="0.78" color="#323544"></a-box>
+      
+      <a-box position="0.12 -20 -2" depth="0.40" height="40" width="0.40" color="#323544"></a-box>
+      
+      <a-box position="-1.45 -20 -2.65" depth="0.40" height="40" width="0.40" color="#323544"></a-box>
+      
+      <a-box position="0 -20 -3.75" depth="0.40" height="40" width="0.40" color="#323544"></a-box>
+
+      <!--murs marelle-->
+      <a-box position="0.69 -17.56 -0.92" depth="0.1" height="40" width="0.35" color="#323544"></a-box>
+      <a-box position="0.39 -18.06 -0.97" depth="0.14" height="40" width="0.25" color="#323544"></a-box>
+      <a-box position="1.69 -17.56 -0.52" depth="0.35" height="40" width="0.35" color="#323544"></a-box>
+      <a-box position="1.29 -18.26 -0.22" depth="0.15" height="40" width="0.15" color="#323544"></a-box>
+
+      <a-box position="-1 -18 -1.48" depth="0.3" height="40" width="0.60" color="#323544"></a-box>
+      <a-box position="-0.72 -17.54 -1.67" depth="0.2" height="40" width="0.30" color="#323544"></a-box>
+      <a-box position="-1.8 -18.89 -1" depth="0.5" height="40" width="0.7" color="#323544"></a-box>
+
+      <a-box position="0.7 -17.56 -1.5" depth="0.05" height="40" width="0.55" color="#323544"></a-box>
+      <a-box position="0.75 -18.06 -1.62" depth="0.35" height="40" width="0.35" color="#323544"></a-box>
+      <a-box position="0.05 -17.06 -1.62" depth="0.25" height="40" width="0.59" color="#323544"></a-box>
+
+      <a-box position="1.49 -17.56 -2.42" depth="0.35" height="40" width="0.35" color="#323544"></a-box>
+      <a-box position="1 -18.06 -2.68" depth="0.35" height="40" width="0.55" color="#323544"></a-box>
+      <a-box position="0.32 -17.06 -2.42" depth="0.25" height="40" width="0.75" color="#323544"></a-box>
+
+      <a-box position="-1.78 -17.67 -2.42" depth="0.55" height="40" width="0.35" color="#323544"></a-box>
+      <a-box position="-1.48 -17.07 -3.42" depth="0.55" height="40" width="0.75" color="#323544"></a-box>
+      <a-box position="-0.8 -18.2 -3.42" depth="0.35" height="40" width="0.32" color="#323544"></a-box>
+
+      <!--pilliers autour-->
+      <a-box position="-3.8 -18.2 -0.42" depth="0.5" height="40" width="0.5" color="#323544"></a-box>
+      <a-box position="-3.2 -17.2 0.72" depth="0.5" height="40" width="0.5" color="#323544"></a-box>
+      <a-box position="-2.8 -17.5 -3.72" depth="0.3" height="40" width="0.3" color="#323544"></a-box>
+      <a-box position="-4.8 -18.5 -3.22" depth="0.45" height="40" width="0.45" color="#323544"></a-box>
+      <a-box position="2.8 -18.5 -0.72" depth="0.3" height="40" width="0.3" color="#323544"></a-box>
+      <a-box position="3.8 -17.5 -1.42" depth="0.3" height="40" width="0.3" color="#323544"></a-box>
+      <a-box position="4.2 -18.2 -3.02" depth="0.7" height="40" width="0.7" color="#323544"></a-box>
+      <a-box position="4.4 -18.42 -2.62" depth="0.3" height="40" width="0.3" color="#323544"></a-box>
+
+       <!--fond pilliers--> 
+       <a-box position="-2 -58 -25" depth="0.40" height="100" width="0.40" color="#1D1E2B"></a-box>
+       <a-box position="0 -60 -34" depth="0.40" height="100" width="0.40" color="#1D1E2B"></a-box>
+       <a-box position="-5 -59 -42" depth="0.40" height="100" width="0.40" color="#1D1E2B"></a-box>
+       <a-box position="4 -110 -50" depth="0.40" height="100" width="0.40" color="#1D1E2B"></a-box>
+       <a-box position="5 -60 -70" depth="0.40" height="100" width="0.40" color="#1D1E2B"></a-box>
+       <a-box position="-3 -59 -90" depth="0.40" height="100" width="0.40" color="#1D1E2B"></a-box>
+       <a-box position="8 -110 -120" depth="0.40" height="100" width="0.40" color="#1D1E2B"></a-box>
+       <a-box position="-2 -75 -154" depth="0.40" height="100" width="0.40" color="#1D1E2B"></a-box>
+       <a-box position="10 -80 -178" depth="0.40" height="100" width="0.40" color="#1D1E2B"></a-box>
+       <a-box position="1 -65 -200" depth="0.40" height="100" width="0.40" color="#1D1E2B"></a-box>
+       <a-box position="-4 -60 -250" depth="0.40" height="100" width="0.40" color="#1D1E2B"></a-box>
+       <a-box position="-2.5 -59 -290" depth="0.40" height="100" width="0.40" color="#1D1E2B"></a-box>
+       <a-box position="2.4 -110 -320" depth="0.40" height="100" width="0.40" color="#1D1E2B"></a-box>
+       <a-box position="9.45 -75 -354" depth="0.40" height="100" width="0.40" color="#1D1E2B"></a-box>
+       <a-box position="-5 -80 -378" depth="0.40" height="100" width="0.40" color="#1D1E2B"></a-box>
+       <a-box position="4 -65 -400" depth="1.40" height="100" width="0.40" color="#1D1E2B"></a-box>
+     
+       <!--light-->
+       <a-entity light="type: point; intensity:1.15; distance:100" position="0 3sz -5"></a-entity>
+  
+
+        <!-- ... JUSQUE CI-DESSUS -->
+
+        <!-- PLAYER -->
+        <a-entity id="cameraRig">
+            
+            <!-- TETE -->
+            <a-entity id="head" camera wasd-controls look-controls position="0 1.6 0"></a-entity>
+            
+            <!-- MAIN GAUCHE : utiliser oculus-touch-controls pour model3D -->
+            <a-entity id="gauche" oculus-touch-controls="hand: left; model:false">
+                <a-entity id="piedgauche" gltf-model="#leftfoot" rotation="-90 0 180"></a-entity>
+            </a-entity>
+            
+            <!-- MAIN DROITE : utiliser oculus-touch-controls pour model3D -->
+            <a-entity id="droite" oculus-touch-controls="hand: right; model:false">
+                <a-entity id="piedgauche" gltf-model="#rightfoot" rotation="-90 0 180">
+            </a-entity>
+
+        </a-entity>
+
+    </a-scene>
+
+</body>
+
+</html>
