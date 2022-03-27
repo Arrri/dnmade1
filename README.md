@@ -1,8 +1,8 @@
 # dnmade1
 
 
-[marelle_classique](./html_vr2/marelle/VR_marelle_classique.html)
+[marelle_classique_v2](./html_vr2/marelle/vr2_marelle_pieds.html)
 
-[marelle_pieds](./html_vr2/marelle/vr_marelle_pieds.html)
+[marelle_pieds_v2](./html_vr2/marelle/marelle_v2_pieds.html)
 
-[marelle_pieds-mains](./html_vr2/marelle/vr_marelle_pieds-mains.html)
+[marelle_pieds_mains_v2](./html_vr2/marelle/vr2_marelle_pieds.html)
