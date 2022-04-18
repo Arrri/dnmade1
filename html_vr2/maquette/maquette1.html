@@ -1,0 +1,74 @@
+<html>
+
+<head>
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+</head>
+
+<body>
+    <a-scene background="color: black" >
+
+        <a-assets>
+            <a-asset-item id="agathe-obj" src="../assets/modeles/agathe.obj"></a-asset-item>
+            <a-asset-item id="agathe-mtl" src="../assets/modeles/agathe.mtl"></a-asset-item>
+        </a-assets>
+
+        <a-entity obj-model="obj: #agathe-obj; mtl: #agathe-mtl" position="0 0 -4" scale="20 20 20" color="#F00"></a-entity>
+
+
+
+        <a-light type="spot" position="-1 3.5 -5" rotation="-185 -85 90"
+        animation="property: rotation; to: 30 180 90; dur: 10000; easing: ease; loop: true"
+        color="#d18c1e" intensity="1.2"
+            angle="10" penumbra="2">
+        </a-light>
+        
+        <a-light type="spot" position="5 3.5 -2" rotation="-185 -85 90"
+        animation="property: rotation; to: 30 180 90; dur: 100000; easing: linear; loop: true"
+        color="#d18c1e" intensity="1.8"
+            angle="10" penumbra="2">
+        </a-light>
+
+        <a-light type="spot" position="5 3.5 -7" rotation="-170 -85 90"
+        animation="property: rotation; to: 30 80 90; dur: 5000; easing: linear; loop: true"
+        color="#d18c1e" intensity="1.5"
+            angle="20" penumbra="2">
+        </a-light>
+        
+        <!--vert-->
+        <a-light type="spot" position="-40 0 20" rotation="0 -55 20"
+        color="#26dd2a" intensity="0.1"
+            angle="50" penumbra="0.8">
+        </a-light>
+
+         <!--bleu-->
+         <a-light type="spot" position="-10 0 5" rotation="-1 -55 90"
+         color="#0505ad" intensity="0.5"
+             angle="20" penumbra="0.8">
+         </a-light>
+
+         <!--orange-->
+         <a-light type="spot" position="-10 13 5" rotation="-1 -55 20"
+         color="#e55710" intensity="10"
+             angle="20" penumbra="0.8">
+         </a-light>
+
+         
+         <!--
+         <a-light type="spot" position="-7 3 5" rotation="-1 -55 20"
+         color="#e55710" intensity="10" 
+             angle="0.05" penumbra="0.8">
+         </a-light>
+
+         <a-light type="spot" position="-6.5 3.2 5" rotation="-1 -55 20"
+         color="#e55710" intensity="10" 
+             angle="0.05" penumbra="0.8">
+         </a-light>
+        -->
+ 
+
+      
+    </a-scene>
+</body>
+
+</html> 
+ 
